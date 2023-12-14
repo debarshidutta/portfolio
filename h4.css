@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    font-size: larger;
+    background-color: brown;
+}
+
+.Info ul li {
+    list-style-type: none;
+    padding-left: 200px;
+    padding-right: 20px;
+    text-align: left;
+    
+}
+
+.Info ul li a {
+    text-decoration: none;
+    color: black;
+}
+.profile{
+    display: flex;
+    background-color: aquamarine;
+}
+.profile ul{
+    display: flex;
+}
+.profile ul li{
+list-style-type: none;
+}
+.profile ul li img{
+    position: relative;
+    top: 10px;
+    left: 19px;
+    height: 40px;
+    width:40px;
+    cursor: pointer;
+}
+.profile ul li a{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px 10px 50px;
+    text-decoration: none;
+}
+.Experiences{
+    text-align: left;
+    padding: 10px 10px 0px 250px ;
+}
+.Ex{
+    text-align: left;
+    padding-left: 250px;
+}
+    .AM {
+            text-align: left;
+            padding: 10px 10px 0px 250px;
+        }
+    
+        .A {
+            text-align: left;
+            padding-left: 250px;
+}
+.image{
+text-align: left;
+justify-content: baseline;
+padding-top:0px;
+padding-left: 0px;
+}
+.image img{
+height: 150px;
+width: 150px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-top: 0px;
+}
